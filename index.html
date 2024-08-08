@@ -7,14 +7,14 @@
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
     <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
 </script>
 <script type="text/javascript">
-(function(){
-  emailjs.init({
-    publicKey: "c2pM4Kh6AvReATuKM",
-  });
-})();
+   (function(){
+      emailjs.init({
+        publicKey: "c2pM4Kh6AvReATuKM",
+      });
+   })();
 </script>
 </head>
 <body>
@@ -33,7 +33,7 @@
     <!-- Home Section -->
     <section id="home" class="section">
         <div class="hero">
-            <img src="your-photo.jpg" alt="Haidar Esber">
+            <img src="Haidar.jpg" alt="Haidar Esber">
             <h1>Haidar Esber</h1>
             <p>Innovative Software Developer with a passion for creating cutting-edge applications and solutions.</p>
         </div>
@@ -137,16 +137,17 @@
     </section>
         <!-- Contact Section -->
         <!-- Contact Section -->
+        
     <section id="contact" class="section">
         <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" name="name" id="name" placeholder="Your Name" required>
+        <div>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
             <input type="email" name="email" id="email" placeholder="Your Email" required>
             <textarea name="message" id="message" placeholder="Your Message" required></textarea>
-            <button type="sendMail()">Send</button>
-        </form>
+            <button onclick="sendMail()">Send</button>
+        </div>
         <p>You can also reach me directly at: <strong>+33749033679</strong></p>
-        <p>Or connect with me on <a href="https://linkedin.com/in/haidar-esber">LinkedIn</a>.</p>
+        <p>Or connect with me on <a href="https://www.linkedin.com/in/haidar-esber-36a509213">LinkedIn</a>.</p>
     </section>
     
     
