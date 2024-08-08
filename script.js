@@ -19,7 +19,7 @@ function sendMail(){
     var params = {
         from_name : document.getElementById("name").value ,
         message : document.getElementById("message").value ,
-        reply_to : document.getElementById("email").value 
+        from_email : document.getElementById("email").value 
     }
     emailjs.send("service_7ijnibq","template_i2ytvv8",params).then(function() {
         alert('Your message has been sent!');
